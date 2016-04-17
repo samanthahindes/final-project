@@ -19,32 +19,33 @@
   </head>
   <body>
 
+    <h2>Rate!</h2>
 
-     <h2>Rate!</h2>
+        <form action="//formspree.io/samantha.hindes@wustl.edu" method="POST">
+          <div>
+            <label>Which Donut Shop?</label>
+            <select name="donutshops">
+              <option value="john donuts">John Donuts</option>
+              <option value="strange">Strange Donuts</option>
+              <option value="donut shop">Donut Shop</option>
+              <option value="donut house">Donut House</option>
+            </select>
+          </div>
+          <div>
+            <label>How would you rate the donut?</label>
+            <input type="radio" name="stars" value="0" checked="checked" /> 0 stars
+            <input type="radio" name="stars" value="1"/> 1 stars
+            <input type="radio" name="stars" value="2" /> 2 stars
+            <input type="radio" name="stars" value="3" /> 3 stars
+            <input type="radio" name="stars" value="4" /> 4 stars
+            <input type="radio" name="stars" value="5" /> 5 stars
+          </div>
+          <div>
+            <input type="submit" value="Send">
+          </div>
+        </form>
 
-          <form action="//formspree.io/samantha.hindes@wustl.edu" method="POST">
-            <div>
-              <label>Which Cupcake Shop?</label>
-              <select name="cupcakeshops">
-                <option value="the cup">The Cup</option>
-                <option value="jillys">Jilly's Cupcakes</option>
-                <option value="sarah's cake shop">Sarah's Cake Shop</option>
-                <option value="SweetArt">SweetArt</option>
-              </select>
-            </div>
-            <div>
-              <label>How would you rate the cupcake?</label>
-              <input type="radio" name="stars" value="0" checked="checked" /> 0 stars
-              <input type="radio" name="stars" value="1"/> 1 stars
-              <input type="radio" name="stars" value="2" /> 2 stars
-              <input type="radio" name="stars" value="3" /> 3 stars
-              <input type="radio" name="stars" value="4" /> 4 stars
-              <input type="radio" name="stars" value="5" /> 5 stars
-            </div>
-            <div>
-              <input type="submit" value="Send">
-            </div>
-          </form>
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
