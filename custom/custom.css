@@ -1,6 +1,10 @@
 
 nav{
   position: fixed;
-    text-align: right;
+  text-align: right;
 
+}
+
+col-md-4 col-sm-6 col-xs-12{
+  border: 3px;
 }
