@@ -51,10 +51,56 @@
           <div class="jumbotron">
                 <div class="container">
                 <h1>One Dessert a Day</h1>
-                <img class="displayed" src="#" alt="" width="#" height="#">
+                <a href="#img1" rel="modal:open" class="button">Recommend Desserts!</a>
                 </div>
               </div>
           </section>
+
+          <div id="img1" style="display:none;">
+
+         <h2>Recommend Your Favorite Desserts</h2>
+        <h3>Include your name and email for a chance to win a gift card!</h3>
+
+              <form action="//formspree.io/samantha.hindes@wustl.edu" method="POST">
+                <div>
+                  <label>What type of desserts?</label>
+                  <select name="desserts">
+                    <option value="ice cream">Ice Cream</option>
+                    <option value="cupcake">Cupcake</option>
+                    <option value="chocolate">Chocolate</option>
+                    <option value="pastries">Pastries</option>
+                    <option value="donuts">Donuts</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+                <div>
+                  <label>Name of Dessert Shop</label>
+                  <input type="text" name="name" required="required" / >
+                </div>
+                <div>
+                  <label>Favorite Item on Menu</label>
+                  <input type="text" name="mail" required="required" />
+                </div>
+                 <div>
+                  <label>Name</label>
+                  <input type="text" name="your name">
+                </div>
+                <div>
+                  <label>Email</label>
+                  <input type="text" name="your name">
+                </div>
+                <div>
+                  <p>Comments</p>
+                  <textarea name="comments" cols="20" rows="4">Enter your comments...</textarea>
+                </div>
+
+                <div>
+                  <input type="submit" value="Send">
+                </div>
+              </form>
+
+            </div>
+
 
 
         <section class="main-content">
