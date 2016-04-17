@@ -21,7 +21,7 @@
   <body>
 
     <nav class="navbar navbar-default">
-  <div class="container-fluid">
+      <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -30,13 +30,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Brand</a>
+      <a class="navbar-brand" href="home">One Dessert A Day</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
         <li><a href="#icecream">Ice Cream</a></li>
         <li><a href="#cupcakes">Cupcakes</a></li>
         <li><a href="#chocolates">Chocolate</a></li>
@@ -49,53 +48,9 @@
 
 
 
-          <div id="img1" style="display:none;">
-
-         <h2>Recommend Your Favorite Desserts</h2>
-        <h3>Include your name and email for a chance to win a gift card!</h3>
-
-              <form action="//formspree.io/samantha.hindes@wustl.edu" method="POST">
-                <div>
-                  <label>What type of desserts?</label>
-                  <select name="desserts">
-                    <option value="ice cream">Ice Cream</option>
-                    <option value="cupcake">Cupcake</option>
-                    <option value="chocolate">Chocolate</option>
-                    <option value="pastries">Pastries</option>
-                    <option value="donuts">Donuts</option>
-                    <option value="other">Other</option>
-                  </select>
-                </div>
-                <div>
-                  <label>Name of Dessert Shop</label>
-                  <input type="text" name="name" required="required" / >
-                </div>
-                <div>
-                  <label>Favorite Item on Menu</label>
-                  <input type="text" name="mail" required="required" />
-                </div>
-                 <div>
-                  <label>Name</label>
-                  <input type="text" name="your name">
-                </div>
-                <div>
-                  <label>Email</label>
-                  <input type="text" name="your name">
-                </div>
-                <div>
-                  <p>Comments</p>
-                  <textarea name="comments" cols="20" rows="4">Enter your comments...</textarea>
-                </div>
-
-                <div>
-                  <input type="submit" value="Send">
-                </div>
-              </form>
-
-            </div>
 
             <section class="page-header">
-              <div class="jumbotron">
+              <div class="jumbotron" id="home">
                     <div class="container">
                     <h1>One Dessert a Day</h1>
                     <a href="#img1" rel="modal:open" class="button">Recommend Desserts!</a>
