@@ -1,11 +1,6 @@
-.container-fluid{
+
+nav{
   position: fixed;
-}
+    text-align: right;
 
-.navbar-brand{
-
-}
-
-.collapse-navbar-collapse{
-  text-align: right;
 }
