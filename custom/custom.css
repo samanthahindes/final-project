@@ -1,5 +1,5 @@
 
-nav{
+.navbar-brand{
   position: fixed;
   text-align: right;
 
@@ -14,4 +14,10 @@ nav{
   position: fixed;
   text-align: right;
   border-bottom: 5px;
+}
+
+.container h3{
+  font-size: 200%;
+  font-family: Arial, Verdana, sans-seriff;
+  color: red;
 }
