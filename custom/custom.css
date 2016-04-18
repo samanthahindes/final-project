@@ -9,3 +9,9 @@ nav{
   border: 3px;
   border-color: red;
 }
+
+.collapse-navbar-collapse{
+  position: fixed;
+  text-align: right;
+  border-bottom: 5px;
+}
