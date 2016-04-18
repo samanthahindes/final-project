@@ -9,8 +9,10 @@
 }
 
 .col-md-4.col-sm-6.col-xs-12{
-  border: 3px;
+  border-radius: 3px;
+  border-color: black;
   background-color: white;
+  padding-bottom: 10px;
 }
 
 .collapse-navbar-collapse{
