@@ -1,8 +1,11 @@
 
 .navbar-brand{
   position: fixed;
-  text-align: right;
+}
 
+.navbar-header{
+  position: fixed;
+  text-align: right;
 }
 
 .container{
@@ -16,7 +19,7 @@
   border-bottom: 5px;
 }
 
-.container h3{
+.container h2{
   font-size: 200%;
   font-family: Arial, Verdana, sans-seriff;
   color: red;
