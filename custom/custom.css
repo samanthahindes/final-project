@@ -1,3 +1,7 @@
+.navbar.navbar-default{
+  position-fixed;
+  text-align: right;
+}
 
 .navbar-brand{
   position: fixed;
