@@ -1,12 +1,12 @@
 .navbar{
-  font-size: 10px;
+  font-size: 30px;
   border-bottom: 3px;
   border-color: red;
-  height: 60px;
+  height: 80px;
 }
 
 .navbar img{
-  height: 30px;
+  height: 50px;
 }
 
 body{
