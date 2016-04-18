@@ -1,9 +1,8 @@
 .navbar.navbar-default{
   position-fixed;
-  text-align: right;
 }
 
-.nav.navbar-nav{
+.collapse-navbar-collapse{
   text-align: right;
 }
 
@@ -13,7 +12,6 @@
 
 .navbar-header{
   position: fixed;
-  text-align: right;
 }
 
 .col-md-4.col-sm-6.col-xs-12{
