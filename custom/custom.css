@@ -3,6 +3,10 @@
   text-align: right;
 }
 
+.nav.navbar-nav{
+  text-align: right;
+}
+
 .navbar-brand{
   position: fixed;
 }
