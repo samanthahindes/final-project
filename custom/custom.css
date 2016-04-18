@@ -4,6 +4,9 @@
   border-color: red;
 }
 
+.navbar img{
+  height: 60px;
+}
 
 body{
   padding-top: 70px;
