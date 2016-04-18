@@ -8,6 +8,10 @@
   text-align: right;
 }
 
+.col-md-4.col-sm-6.col-xs-12{
+  border: 3px;
+  background-color: white;
+}
 
 .collapse-navbar-collapse{
   position: fixed;
