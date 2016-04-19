@@ -52,3 +52,7 @@ a:hover{
   color: #595959;
   text-decoration: underline;
 }
+
+.btn.btn-primary{
+  color: white;
+}
