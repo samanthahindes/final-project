@@ -14,13 +14,13 @@ body{
 }
 
 .col-md-4.col-sm-6.col-xs-12{
-  background-color: white;
   padding-bottom: 10px;
   padding-top: 10px;
 }
 
 .thumbnail{
   background-color: #ff8080;
+  padding-top: 10px;
 }
 
 
