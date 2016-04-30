@@ -20,7 +20,7 @@ body{
 }
 
 .thumbnail{
-  background-color: #a3a3c2;
+  background-color: #cc3300;
   padding-top: 10px;
 }
 
@@ -38,7 +38,7 @@ body{
 .container h2{
   font-size: 200%;
   font-family: Arial, Verdana, sans-seriff;
-  color: #004d99;
+  color: #333333;
 }
 
 a:link{
@@ -55,5 +55,5 @@ a:hover{
 }
 
 .btn.btn-primary{
-  color: #ffffff;
+  color: #666666;
 }
