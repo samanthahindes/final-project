@@ -21,7 +21,9 @@ body{
 
 .thumbnail{
   background-color: #f2f2f2;
-  padding-top: 10px;
+  padding-top: 20px;
+  border: 10px;
+  border-color: #cc2900;
 }
 
 
