@@ -43,6 +43,10 @@ body{
   color: #004d99;
 }
 
+.container p{
+  font-size: 20px;
+}
+
 a:link{
   color: ##990000;
 }
